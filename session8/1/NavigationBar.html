@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Navigation Bar</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fafbf8;
+        font-family: Arial, sans-serif;
+        border: 5px solid #222;
+        box-sizing: border-box;
+      }
+      .navbar-container {
+        margin: 28px auto 0 auto;
+        width: 98%;
+        max-width: 1200px;
+        box-sizing: border-box;
+      }
+      .navbar {
+        background: #111;
+        display: flex;
+        box-shadow: 6px 6px 10px #2229;
+        border-radius: 2px 2px 0 0;
+        overflow: hidden;
+        border-bottom: 3px solid #ffb700;
+      }
+      .navbar a {
+        flex: 1;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        padding: 16px 0;
+        font-size: 28px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+        border-right: 2px solid #fff2;
+        transition: background 0.2s, color 0.2s;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+        outline: none;
+      }
+      .navbar a:last-child {
+        border-right: none;
+      }
+      .navbar a:hover {
+        background: #222;
+        color: #ffb700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Users</a>
+        <a href="#">Login</a>
+      </nav>
+    </div>
+  </body>
+</html>
